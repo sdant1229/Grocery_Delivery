@@ -1,0 +1,150 @@
+/* General Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+nav {
+    background-color: #2a9d8f;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #21867a;
+}
+
+/* Headings */
+h1 {
+    color: #264653;
+}
+
+/* Alerts / Messages */
+.alert {
+    background-color: #e9c46a;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Product Grid */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.product-card p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Product Card Form */
+.product-card input[type="number"] {
+    width: 50px;
+    padding: 4px;
+    margin-right: 5px;
+}
+
+.product-card button {
+    padding: 6px 10px;
+    background-color: #264653;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #1b3a4b;
+}
+
+/* Cart Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+/* Cart Buttons */
+button[type="submit"], button[type="button"] {
+    padding: 8px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e76f51;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover {
+    background-color: #d65a3b;
+}
+
+/* Responsive Product Grid */
+@media (max-width: 600px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 90%;
+    }
+}
+
+/* Message Alerts */
+.message {
+    background-color: #e9c46a;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
