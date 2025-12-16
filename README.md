@@ -48,3 +48,22 @@ C:\xampp\htdocs\grocery-system
 - Update username/password if needed (default XAMPP MySQL: username=`root`, password=`""`)
 
 5. **Open the application** in your browser:
+http://localhost/grocery-system/index.php
+
+---
+
+## **File Structure**
+grocery-system/
+│
+├─ index.php # Main product listing
+├─ product_detail.php # Product detail & add to cart
+├─ cart.php # View and update cart
+├─ add_to_cart.php # Add items to cart
+├─ checkout.php # Checkout process
+├─ clear_cart.php # Empty cart
+├─ includes/
+│ └─ db_connect.php # Database connection
+├─ assets/
+│ ├─ style.css # Styles
+│ └─ images/ # Product images
+└─ database.sql # Database setup script
