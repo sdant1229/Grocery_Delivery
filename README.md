@@ -53,19 +53,19 @@ http://localhost/grocery-system/index.php
 ---
 
 ## **File Structure**
-grocery-system/
-index.php # Main product listing
-product_detail.php # Product detail & add to cart
-cart.php # View and update cart
-add_to_cart.php # Add items to cart
-checkout.php # Checkout process
-clear_cart.php # Empty cart
-style.css # Styles
-database.sql # Database setup script
-includes/
-     db_connect.php # Database connection
-assets/
-     images/ # Product images
+- grocery-system/
+- index.php # Main product listing
+- product_detail.php # Product detail & add to cart
+- cart.php # View and update cart
+- add_to_cart.php # Add items to cart
+- checkout.php # Checkout process
+- clear_cart.php # Empty cart
+- style.css # Styles
+- database.sql # Database setup script
+- includes/
+     - db_connect.php # Database connection
+- assets/
+    -  images/ # Product images
 
 ---
 
